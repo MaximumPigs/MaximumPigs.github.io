@@ -3,4 +3,6 @@
 source "https://rubygems.org"
 gemspec
 
-gem 'jekyll-paginate', '~> 1.1'
+gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "jekyll-feed"
+gem "jekyll-paginate"

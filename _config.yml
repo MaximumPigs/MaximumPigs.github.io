@@ -4,11 +4,13 @@ author: Max Pig
 avatar: /logo.png
 email: MaxPig@maximumpigs.com
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-sitemap]
+
+#plugins:
+#  - jekyll-seo-tag
+#  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-paginate
 
 paginate: 10
 
