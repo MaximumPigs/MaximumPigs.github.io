@@ -2,7 +2,7 @@ title: MaximumPigs.com
 description: Just a collection of my thoughts on the topic of Cyber Security
 author: Chris Grech
 avatar: /logo.png
-email: chris.m.grech@maximumpigs.com
+email: MaxPig@maximumpigs.com
 
 plugins:
   - jekyll-seo-tag
@@ -34,7 +34,7 @@ exclude:
 #  card: summary
 logo: logo.png
 social:
-  name: Chris Grech
+  name: Max Pig
   links:
 #    - https://twitter.com/ngzhio
 #    - https://www.facebook.com/ngzhio
