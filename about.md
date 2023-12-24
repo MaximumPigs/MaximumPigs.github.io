@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Nothing much here, I'm just a guy who bought a domain.
+Not much to see, just a guy who bought a domain.
