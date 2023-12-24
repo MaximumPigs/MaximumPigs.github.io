@@ -75,8 +75,10 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
+  jekyll-paginate (~> 1.1)
   jekyll-theme-hamilton!
   rake (~> 12.0)
+  github-pages (~> 228)
 
 BUNDLED WITH
    2.1.4
