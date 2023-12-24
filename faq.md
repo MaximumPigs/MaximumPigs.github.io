@@ -4,4 +4,4 @@ title: FAQ
 permalink: /faq/
 ---
 
-An FAQ page.
+lol. Nobody asks me anything.
