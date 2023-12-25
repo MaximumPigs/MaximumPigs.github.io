@@ -17,14 +17,14 @@ They all have misspelt words, but I'm keeping them because I find it amusing. Th
 Now that the disclaimer is out of the way, I should probably talk a bit about myself.
 
 I'm an Australian cybersecurity professional, with a keen interest in understanding **how** things work and **why** we do them the way we do. I don't claim to be a super-expert, but I think I have a pretty decent grasp of the subject.  
-Over the following [var_post_count](# "err: undefined variable") posts, I intend to share a few things I've picked up that have helped me over the years. Just as context can turn information into intelligence, I firmly believe context can turn knowledge into wisdom. For that reason, I enjoy discussing topics such as:
+Over the following [var_post_count](# "err: undefined variable") posts, I intend to share a few things I've picked up that have helped me over the years. Just as context can turn information into intelligence, I firmly believe context can turn knowledge into wisdom. For that reason, I enjoy discussing topics like:
 
 - [ ] The presumption of compromise.
 - [ ] Why perimeter-centric cybersecurity is outdated.
 - [ ] The perfect solution fallacy.
 - [ ] The perfect attacker fallacy *(It's different from the last one, I promise).*
 
-In addition to context and concepts, I spend a lot of time on threat detection. As an enthusiast of threat hunting and detection engineering, I'm also likely to write posts on:
+In addition to context and concepts, I spend a lot of time on threat detection. As an enthusiast of threat hunting and detection engineering, it's also likely I'll write posts on:
 
 - [ ] TTPs vs IOCs.
 - [ ] Detection Engineering and how to begin.
@@ -33,5 +33,4 @@ In addition to context and concepts, I spend a lot of time on threat detection. 
 
 I've only ever given presentations in person, typically in front of a whiteboard that ends up looking like a child's crayon drawing on the kitchen wall. I hope to start a YouTube channel at some point but need to find the right technology to effectively transfer my thoughts to the screen.
 
-I hope someone out there gets something out of these posts, but if nothing else -  
-    `Hey! Potential employers, look at this - I did a thing`
+I hope you enjoy reading what I have to say, or even just dropping by my GitHub and checking out some stuff I've made.
