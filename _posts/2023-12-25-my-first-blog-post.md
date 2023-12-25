@@ -27,9 +27,9 @@ Over the following [var_post_count](# "err: undefined variable") posts, I intend
 In addition to context and concepts, I spend a lot of time on threat detection. As an enthusiast of threat hunting and detection engineering, I'm also likely to write posts on:
 
 - [ ] TTPs vs IOCs.
-- [ ] Detection Engineering and where to start.
+- [ ] Detection Engineering and how to begin.
 - [ ] Hunt queries vs Detection queries.
-- [ ] Analysis and Hunt Techniques - where to start when you're unsure.
+- [ ] Analysis and Hunt Techniques - where to start when you don't know where to start.
 
 I've only ever given presentations in person, typically in front of a whiteboard that ends up looking like a child's crayon drawing on the kitchen wall. I hope to start a YouTube channel at some point but need to find the right technology to effectively transfer my thoughts to the screen.
 
