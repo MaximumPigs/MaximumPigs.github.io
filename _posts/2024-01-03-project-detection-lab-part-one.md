@@ -125,7 +125,7 @@ if dpkg -i velociraptor_server_*.deb >/dev/null; then
 else
 ```
 
-Once this was resolved, I attempted to browse to the URL again only to be met with a "Certificate Expired" message. It turns out that the certificates within the client and server configuration file included in the repo [6] expired not long after Clong ended support of DetectionLab.  
+Once this was resolved, I attempted to browse to the URL again only to be met with a "Certificate Expired" message. It turns out that the certificates within the client and server configuration file [6] included in the repo expired not long after Clong ended support of DetectionLab.  
 With the Lab up and running and the Velociraptor server installed, I just ran through the configuration generation wizard again and dumped the new certificates into my repo.  
 I made a couple of changes to the 
 
@@ -144,7 +144,7 @@ initial_users:
   password_salt: 6e82c2611e99c200ee2dca4d7b3a4d599cfcfb3b023a226b2bb0c4f738a06246
 ```
 
-I also had to point the Velociraptor client configuration step to my own repo within /AWS/Terraform/scripts/bootstrap.ps1 [7] script to ensure the Windows clients receive the correct files.
+I also had to point the Velociraptor client configuration step to my own repo within /AWS/Terraform/scripts/bootstrap.ps1 script [7] to ensure the Windows clients receive the correct files.
 
 ### Success ... for now
 
