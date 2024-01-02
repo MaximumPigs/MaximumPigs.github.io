@@ -32,7 +32,7 @@ With a list! Of course. Something immediately obvious about me is just how much 
 
 - [X] Write a post about starting a project.
 - [X] Don't procrastinate.
-- [X] Create a fork of Clongs Detection Lab.
+- [X] Create a fork of Clong's Detection Lab.
 - [ ] GitHub Actions
   - [ ] Create some actions that will provision to cloud providers using a GitHub Runner.
   - [ ] Modify the AWS Terraform code to accept GitHub.Secrets.

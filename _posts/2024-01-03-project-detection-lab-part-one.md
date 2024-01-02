@@ -24,7 +24,7 @@ Let's talk about what I've done so far, some of the challenges I came up against
 Here's where we left off last time, a pretty solid start but not worth discussing again.  
 - [X] Write a post about starting a project.
 - [X] Don't procrastinate.
-- [X] Create a fork of [Clongs Detection Lab](https://www.detectionlab.network/).  
+- [X] Create a fork of [Clong's Detection Lab](https://www.detectionlab.network/).  
 <br />
 
 ## GitHub actions
@@ -63,7 +63,7 @@ While I believe it's fairly low risk leaving this whitelisted, I do like to clea
   run: terraform apply -auto-approve -var="runner_ip=${{ secrets.MY_IP }}"
 ```
 
-Another nice thing I've added is the cost calculator from Clongs AWS README.md file. [2] As well as a step summary of the Terraform outputs, for ease of reference later.
+Another nice thing I've added is the cost calculator from Clong's AWS README.md file. [2] As well as a step summary of the Terraform outputs, for ease of reference later.
 
 ```yaml
 # Gets Terraform state and generates cost using cost.modules.tf
@@ -106,7 +106,7 @@ With that out of the way, the next hurdle was to get the DetectionLab running fr
   - [X] Create AMIs from the OVAs.
   - [X] Test it.
 
-This was actually much easier than I expected, I just followed Clongs "Customization" steps for building your own AMIs. [3] I was expecting some technical resistance here, but it actually went very smoothly - so hats off to you Clong.
+This was actually much easier than I expected, I just followed Clong's "Customization" steps for building your own AMIs. [3] I was expecting some technical resistance here, but it actually went very smoothly - so hats off to you Clong.
 
 ### Velociraptor
 
@@ -164,7 +164,7 @@ As of version 0.1.0 I have already started building this out, but I've already r
 
 - [X] Write a post about starting a project
 - [X] Don't procrastinate
-- [X] Create a fork of Clongss Detection Lab. 
+- [X] Create a fork of Clong's Detection Lab. 
 - [X] GitHub Actions
   - [X] Create some actions that will provision to cloud providers using a GitHub Runner
   - [X] Modify the AWS Terraform code to accept GitHub.Secrets
@@ -212,9 +212,9 @@ As of version 0.1.0 I have already started building this out, but I've already r
 ---
 
 [1]: https://github.com/MaximumPigs/DetectionLab/tree/v0.1.0 "MaxiumumPigs DetectionLab Version 0.1.0"
-[2]: https://github.com/clong/DetectionLab/blob/master/AWS/Terraform/README.md "Clongs DetectionLab AWS readme."
+[2]: https://github.com/clong/DetectionLab/blob/master/AWS/Terraform/README.md "Clong's DetectionLab AWS readme."
 [3]: https://www.detectionlab.network/customization/buildami/ "DetectionLab.network - Build your own AMIs"
-[4]: https://github.com/clong/DetectionLab/blob/master/Vagrant/logger_bootstrap.sh "Clongs DetectionLab/Vagrant/logger_bootstrap.sh"
-[5]: https://github.com/MaximumPigs/DetectionLab/blob/v0.1.0/Vagrant/logger_bootstrap.sh "MaximumPigs Clongs DetectionLab/Vagrant/logger_bootstrap.sh"
-[6]: https://github.com/clong/DetectionLab/tree/master/Vagrant/resources/velociraptor "Clongs DetectionLab Velociraptor Config Files"
+[4]: https://github.com/clong/DetectionLab/blob/master/Vagrant/logger_bootstrap.sh "Clong's DetectionLab/Vagrant/logger_bootstrap.sh"
+[5]: https://github.com/MaximumPigs/DetectionLab/blob/v0.1.0/Vagrant/logger_bootstrap.sh "MaximumPigs Clong's DetectionLab/Vagrant/logger_bootstrap.sh"
+[6]: https://github.com/clong/DetectionLab/tree/master/Vagrant/resources/velociraptor "Clong's DetectionLab Velociraptor Config Files"
 [7]: https://github.com/MaximumPigs/DetectionLab/blob/v0.1.0/AWS/Terraform/scripts/bootstrap.ps1 "MaximumPigs DetectionLab/AWS/Terraform/scripts/bootstrap.ps1"
