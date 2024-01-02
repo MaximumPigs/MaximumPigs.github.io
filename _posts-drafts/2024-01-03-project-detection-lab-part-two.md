@@ -2,7 +2,7 @@
 layout: post
 title: Project - Detection Lab - Part One
 categories: ["Projects"]
-tags: ["Detection Lab", "Terraform", "AWS", "Ansible", "GitHub Actions", "Velociraptor"]
+tags: ["Detection Lab", "Terraform", "AWS", "Ansible", "GitHub Actions"]
 author:
   - MaximumPigs
 ---
