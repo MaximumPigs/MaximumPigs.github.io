@@ -65,7 +65,7 @@ Stay tuned for more words...
 
 ---
 
-### Glossary
+### Links and References
 
 1. **Ansible - (IT Automation Tool)**: [Ansible by Red Hat](https://www.ansible.com/)
 2. **AWS - (Amazon Web Services)**: [AWS Official Site](https://aws.amazon.com/)
@@ -81,5 +81,4 @@ Stay tuned for more words...
 12. **VCD - (VMware Cloud Director)**: [VMware Cloud Director Overview](https://www.vmware.com/products/cloud-director.html)
 13. **VMWare - (Cloud Computing and Virtualization Technology Company)**: [VMWare Official Site](https://www.vmware.com/)
 
-
-
+---
