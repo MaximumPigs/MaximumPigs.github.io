@@ -14,7 +14,7 @@ What is a GitHub account without a perpetually ongoing project?
 
 First of all, I've decided to add my ChatGPT prompt for each image within the caption. Hover over the image to get a glimpse into my mind.
 
-I've been thinking a lot about what to write in my first substantial post. With so many topics I'd like to explore, I've decided to feed two birds with one scone and write up a project that has been on my radar for quite some time - A Detection Lab. More specifically, forking Chris Long's (Clong) Detection Lab [1], which is now unmaintained, and making it work for my purposes. It'll be a significant challenge to my Infrastructure as Code skills, as I will need to deconstruct what Chris has built and then remake at least some of it. I may ditch some features to reduce complexity in the early stages but will likely add them back later.
+I've been thinking a lot about what to write in my first substantial post. With so many topics I'd like to explore, I've decided to feed two birds with one scone and write up a project that has been on my radar for quite some time - A Detection Lab. More specifically, forking [Chris Long's (Clong) Detection Lab](https://https://github.com/clong/DetectionLab), which is now unmaintained, and making it work for my purposes. It'll be a significant challenge to my Infrastructure as Code skills, as I will need to deconstruct what Chris has built and then remake at least some of it. I may ditch some features to reduce complexity in the early stages but will likely add them back later.
 
 So, why don't I just use what Clong has already built? It's all still there...
 
@@ -32,7 +32,7 @@ With a list! Of course. Something immediately obvious about me is just how much 
 
 - [X] Write a post about starting a project.
 - [X] Don't procrastinate.
-- [X] Create a fork of Clong's Detection Lab.
+- [X] Create a fork of Clongs Detection Lab.
 - [ ] GitHub Actions
   - [ ] Create some actions that will provision to cloud providers using a GitHub Runner.
   - [ ] Modify the AWS Terraform code to accept GitHub.Secrets.
@@ -63,4 +63,23 @@ So, there you have it. A list, complete with some easy wins to get me started.
 
 Stay tuned for more words...
 
-[1]: https://github.com/clong/DetectionLab "Clong's Detection Lab GitHub repository."
+---
+
+### Glossary
+
+1. **Ansible - (IT Automation Tool)**: [Ansible by Red Hat](https://www.ansible.com/)
+2. **AWS - (Amazon Web Services)**: [AWS Official Site](https://aws.amazon.com/)
+3. **Azure - (Microsoft's Cloud Computing Service)**: [Microsoft Azure Official Site](https://azure.microsoft.com/)
+4. **Detection Lab - (Security Research Environment)**: [Chris Long's Detection Lab on GitHub](https://github.com/clong/DetectionLab)
+5. **GitHub - (Code Hosting Platform)**: [GitHub Homepage](https://github.com/)
+6. **GitHub Actions - (CI/CD Automation Tool)**: [GitHub Actions Documentation](https://docs.github.com/en/actions)
+7. **Infrastructure as Code (IaC) - (Infrastructure Management Approach)**: [Infrastructure as Code Explained](https://www.ibm.com/cloud/learn/infrastructure-as-code)
+8. **SSH - (Secure Shell)**: [SSH Overview](https://www.ssh.com/academy/ssh)
+9. **Splunk - (Data Analysis and Visualization Tool)**: [Splunk Official Site](https://www.splunk.com/)
+10. **Terraform - (Infrastructure as Code Software)**: [Terraform by HashiCorp](https://www.terraform.io/)
+11. **Vagrant - (Software for Building and Managing Virtual Machine Environments)**: [Vagrant by HashiCorp](https://www.vagrantup.com/)
+12. **VCD - (VMware Cloud Director)**: [VMware Cloud Director Overview](https://www.vmware.com/products/cloud-director.html)
+13. **VMWare - (Cloud Computing and Virtualization Technology Company)**: [VMWare Official Site](https://www.vmware.com/)
+
+
+
