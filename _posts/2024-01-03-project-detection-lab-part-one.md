@@ -7,7 +7,9 @@ author:
   - MaximumPigs
 ---
 
-So I made a commitment to a project, but we all know that planning is the first step towards failure. Did I never leave the procrastination stage? Did I hyper focus and finish the whole thing in one sleepless sprint? There is only one way to find out ... read on and follow along in version 0.1.0 of this project. [1] 
+So I made a commitment to a project, but we all know that planning is the first step towards failure.  
+
+Did I get stuck in the procrastination stage? Did I hyper focus and finish the whole thing in one sleepless sprint? There is only one way to find out ... read on and follow along in version 0.1.0 of this project. [1] 
 
 ![Procrastination vs Hyperfocus](/assets/images/procrastination_vs_hyperfocus.webp "Make me a picture that shows a struggle between procrastination and hyper focus. Do not include any words on the picture. Make sure it will look good against a black background and make it in a 3:1 aspect ratio")  
 *Kind of looks like my bloodshot eyes after staring at a screen all day. Also, ChatGPT isn't very good at image sizes.*  
