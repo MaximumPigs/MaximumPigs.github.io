@@ -126,10 +126,10 @@ else
 ```
 
 Once this was resolved, I attempted to browse to the URL again only to be met with a "Certificate Expired" message. It turns out that the certificates within the client and server configuration file [6] included in the repo expired not long after Clong ended support of DetectionLab.  
-With the Lab up and running and the Velociraptor server installed, I just ran through the configuration generation wizard again and dumped the new certificates into my repo.  
-I made a couple of changes to the 
 
-It turned out that both the server and client certificates were quite old and had been pre-generated and included within the repo as a static file. I had to add and change a couple of lines to the server config file to make it work.
+It turned out that both the server and client cconfigurations included in the repo were quite old and had the certificates had since expired. With the Lab already up and running and the Velociraptor server installed, I just ran through the configuration generation wizard again and dumped the new certificates into my repo.
+
+With a few manual changes to the config files after the fact the I was able to get access to the GUI.
 
 ```yaml
 # Change the GUI bind_address from 127.0.0.1 to 0.0.0.0 to allow inbound connections
@@ -144,7 +144,7 @@ initial_users:
   password_salt: 6e82c2611e99c200ee2dca4d7b3a4d599cfcfb3b023a226b2bb0c4f738a06246
 ```
 
-I also had to point the Velociraptor client configuration step to my own repo within /AWS/Terraform/scripts/bootstrap.ps1 script [7] to ensure the Windows clients receive the correct files.
+I also had to point the Velociraptor client configuration step within the /AWS/Terraform/scripts/bootstrap.ps1 script [7] to my own repo, to ensure the Windows clients received the updated files.
 
 ### Success ... for now
 
