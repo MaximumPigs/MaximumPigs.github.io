@@ -7,14 +7,25 @@ author:
   - MaximumPigs
 ---
 
-So I made a commitment to a project, but we all know that planning is the first step towards failure.  
+Headline
 
-![Procrastination vs Hyperfocus](/assets/images/procrastination_vs_hyperfocus.webp "Make me a picture that shows a struggle between procrastination and hyper focus. Do not include any words on the picture. Make sure it will look good against a black background and make it in a 3:1 aspect ratio")  
-*Kind of looks like my bloodshot eyes after staring at a screen all day. Also, ChatGPT isn't very good at image sizes.*  
+![Image Title](/assets/images/procrastination_vs_hyperfocus.webp "ChatGPT prompt")  
+*Image caption*  
 <br />
 
-Spoiler: I spent an unhealthy amount of time on this when I really should have been enjoying a few days off work.  
-What did I learn about the importance of taking time to relax? ... Absolutely nothing, I'll do it again, just watch me.  
+## Windows Defender and why I can't provision from an existing AWS AMI.
+
+## Sysprep
+
+## Vagrant Folder
+
+## WinRM ports
+
+## Network ports for Zeek / Suricata
+
+## Outcome
+
+## What's Next? Make faster happen.
 
 -----------------------
 
@@ -40,17 +51,26 @@ What did I learn about the importance of taking time to relax? ... Absolutely no
     - [ ] Windows 10 Host
   - [X] Decide whether to use scripts from Vagrant or Ansible playbooks from the Azure method.  
     *I've decided on Ansible because Clong already has great playbooks used in his ESXi build.*
-  - [ ] Write in any modifications to match the new provider
+  - [X] Write in any modifications to match the new provider
     - [X] Linux Logger
-    - [ ] Windows Domain Controller
-    - [ ] Windows Event Forwarder
-    - [ ] Windows 10 Host
-  - [ ] Test it
-- [ ] VCD
+    - [X] Windows Domain Controller
+    - [X] Windows Event Forwarder
+    - [X] Windows 10 Host
+  - [X] Test it
+- [X] VCD
   - [X] Plan out the build, identify what resources are required and the VCD equivalent
   - [X] Write Terraform Code
-  - [ ] Provision using Ansible
+  - [X] Provision using Ansible
+  - [X] Test it
+- [ ] Re-useable workflow
+  - [ ] Modify my actions to make them reuseable
+  - [ ] Write a template people can use
   - [ ] Test it
+- [ ] Clean it all up and document
+  - [ ] Refactor some code, and put global resources in a common folder (ie. ansible)
+  - [ ] Document how to launch in own repo
+  - [ ] Document how to call using github action
+  - [ ] Document building own AMIs - Can I share these somewhere instead?
 
 ---
 
