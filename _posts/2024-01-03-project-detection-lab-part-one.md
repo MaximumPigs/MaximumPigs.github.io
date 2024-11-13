@@ -144,7 +144,7 @@ initial_users:
   password_salt: 6e82c2611e99c200ee2dca4d7b3a4d599cfcfb3b023a226b2bb0c4f738a06246
 ```
 
-I also had to point the Velociraptor client configuration step within the /AWS/Terraform/scripts/bootstrap.ps1 script [7] to my own repo, to ensure the Windows clients received the updated files.
+I was able to re-establish a connection from the cleints once I had point the Velociraptor client configuration step within the /AWS/Terraform/scripts/bootstrap.ps1 script [7] to my own repo, and re-run the build.
 
 ### Success ... for now
 
@@ -152,7 +152,7 @@ With these changes made, I destroyed all of my infastructure and set it to rebui
 
 Success. I had a successful deployment from start to finish. Velociraptor, Guacamole, Fleet, and Splunk were all available and working as expected.
 
-This isn't where I had planned on stopping though, I had 40gb of .OVA files sitting in my S3 storage and another 240gb of AMIs just waiting around racking up my AWS bill.
+This isn't where I had plan on stopping though, I have 40gb of .OVA files sitting in my S3 storage and another 240gb of AMIs just waiting around racking up my AWS bill.
 
 The next step is building it up from scratch using existing AMIs in AWS so that I can do away with the associated storage costs of uploading my own.
 
