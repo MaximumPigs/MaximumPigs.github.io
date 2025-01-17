@@ -29,17 +29,42 @@ The easy solution to this is just to fire up the machine, turn off Real-Time pro
 
 ## Windows Defender and why I can't provision from an existing AWS AMI.
 
-## Sysprep
+This caused me an unfathomable amount of pain. Likely after a raft of complains from people turning off Windows Defender, only to get popped later - and then  blaming Microsoft, Microsoft have introduced some updates which make it impossible to disable Windows Defender programatically. If you run a powershell command to disable Defender, it will show as succeeded - but Defender will still be enabled. The only way to do it is to navigate through the GUI of each machine and disable it manually. This is a good thing, it keeps people from shooting themselves in the foot and disabling their Endpoint Detection and Response (EDR) capability for the entire environment, so I really shouldn't complain ... but I'm going to.  
 
-## Vagrant Folder
+This is an issue for me, because I'm TRYING to build a vulnerable machine but Microsoft (rightly so) are making this difficult for me. How is this a problem using AWS? Well, all the exsting AWS Machine Images (AMIs) are up to date with this new feature, obviously. Everything works, all the way up to disabling Windows Defender, and then the whole process breaks down.
 
-## WinRM ports
+Luckily, I've found a solution - I simply need to build my own AMI using an old version of Windows.
 
-## Network ports for Zeek / Suricata
+No! Says Microsoft, who apply in-place security updates to all of their ISO's. Even if you download a version of Windows which pre-dates this functionality, it is already applied to the ISO retrospectively.
 
-## Outcome
+So I ask myself, [what would Brian Boitano do](https://www.youtube.com/watch?v=sNJmfuEWR8w) _(language warning)_ in this situation?
 
-## What's Next? Make faster happen.
+He'd make a plan, and he'd follow through, that's what Brian Boitano'd do.
+
+Also, he'd probably try and use the Windows Virtual Machines that CLong uploaded to the Vagrant cloud, as they still seem to work when deploying the Detection Lab locally.
+
+## Sysprep and VMWare OVTool
+
+I learned quite a lot about Sysprep at this stage, and I won't bore you with all the details but essentially I got it all working by doing this:
+
+- Provision the Detection Lab locally using Vagrant to download all of the Virtual Machines.
+- Using the VMWare OVTool, convert each of the Virtual Machines to the Open Virtualization Format (OVF), which is compatible with AWS.
+- Upload each of the new OVF Files AWS S3.
+- Import each of the OVF files as a new Image in AWS.
+- Create an EC2 instance from each of the new Images.
+- Launch each EC2 instance and run Sysprep to generalise the image.
+- Create a new AMI from each of the sysprepped EC2 instances.
+- Delete everything from AWS except the completed AMIs (because $$)
+
+The main reason this needed to be done in as many steps is the fact that I didn't want a separate AMI for each Windows Server, the whole point of this project was to provision the environment from base images - if I had an image file for each host then I may as well just provision it manually and take a snapshot.
+
+In order to use the same Windows Server images for two hosts I had to strip it of it's GUID as you can't join two machines with a matching GUID to the same domain. Sysprep will revert the system to a near out-of-the-box state, and it will receive a new GUID on first boot.
+
+## What's Next?
+
+Well, it works. Unfortunately I've had to use my own AMIs, which I am reluctant to share publically because I feel that would make me liable in some way were bad things to happen.
+
+I'll leave the code in a public repository though, feel free to take a leaf out of my book and make it your own when you feel like bashing your head against a brick wall for a few days! I learned a lot, and I hope you do too.
 
 -----------------------
 
@@ -60,9 +85,9 @@ The easy solution to this is just to fire up the machine, turn off Real-Time pro
       - [X] Ubuntu-22.04
   - [ ] Modify Terraform code to include a provisioner  
     - [X] Linux Logger
-    - [ ] Windows Domain Controller
-    - [ ] Windows Event Forwarder
-    - [ ] Windows 10 Host
+    - [X] Windows Domain Controller
+    - [X] Windows Event Forwarder
+    - [X] Windows 10 Host
   - [X] Decide whether to use scripts from Vagrant or Ansible playbooks from the Azure method.  
     *I've decided on Ansible because Clong already has great playbooks used in his ESXi build.*
   - [X] Write in any modifications to match the new provider
