@@ -9,8 +9,8 @@ author:
 
 What would Brian Boitano do?
 
-![Image Title](/assets/images/procrastination_vs_hyperfocus.webp "ChatGPT prompt")  
-*Image caption*  
+![Image Title](/assets/images/procrastination_vs_hyperfocus.webp "I don't remember what I asked ChatGPT here, something about bloodshot eyes and a lack of sleep.")  
+*This is how ChatGPT imagines my eyes look after finishing this section of the project*  
 <br />
 
 So here's a philosophical question for you. If a year of real time passes between posts, but nobody will ever read them ... has any time passed at all?
