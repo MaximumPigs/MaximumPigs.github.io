@@ -13,7 +13,7 @@ What would Brian Boitano do?
 *Image caption*  
 <br />
 
-So here's a lesson in relativity. If several weeks of real time passes between posts, but nobody will read them for months ... 
+So here's a philosophical question for you. If a year of real time passes between posts, but nobody will ever read them ... has any time passed at all?
 
 I've made a whole heap of progress since my last write-up, so much that I'm really regretting not breaking it down into smaller chunks between posts. I ran into a few problems, and made a few changes but I think it's working ... well, it's at least running and appears to be functional.
 
