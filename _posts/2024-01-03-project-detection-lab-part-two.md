@@ -7,7 +7,7 @@ author:
   - MaximumPigs
 ---
 
-Headline
+What would Brian Boitano do?
 
 ![Image Title](/assets/images/procrastination_vs_hyperfocus.webp "ChatGPT prompt")  
 *Image caption*  
@@ -37,7 +37,7 @@ Luckily, I've found a solution - I simply need to build my own AMI using an old 
 
 No! Says Microsoft, who apply in-place security updates to all of their ISO's. Even if you download a version of Windows which pre-dates this functionality, it is already applied to the ISO retrospectively.
 
-So I ask myself, [what would Brian Boitano do](https://www.youtube.com/watch?v=sNJmfuEWR8w) _(language warning)_ in this situation?
+So I ask myself, [what would Brian Boitano do?](https://www.youtube.com/watch?v=sNJmfuEWR8w) _(language warning)_ in this situation?
 
 He'd make a plan, and he'd follow through, that's what Brian Boitano'd do.
 
